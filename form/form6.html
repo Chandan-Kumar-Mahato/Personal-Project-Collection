@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>This is the sixt form</title>
+  </head>
+  <body>
+    <h1>Complex Form</h1>
+    <form action="">
+      <fieldset>
+        <legend>Personal Information</legend>
+        <label for="nam">Name:</label>
+        <input type="text" name="nam" id="nam" placeholder="Enter your Name" />
+        <label for="email">Email:</label>
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="Enter your Email"
+        />
+        <label for="phn">phone:</label>
+        <input
+          type="number"
+          name="phn"
+          id="phn"
+          placeholder="Enter your Number"
+        />
+        <label for="brth">Date of Birth:</label>
+        <input type="date" name="brth" id="brth" />
+        <label for="gender">Gender:</label>
+        <input type="radio" name="male" id="male" />
+        <label for="male">Male</label>
+        <input type="radio" name="male" id="female" />
+        <label for="female">Female Country</label>
+      </fieldset>
+      <fieldset>
+        <legend>
+          <label for="addr">Address Street</label>
+          <input type="text" name="addr" id="addr" placeholder="Enter your address" />
+          <label for="place">City</label>
+          <input type="text" name="place" id="place" placeholder="City enter"/>
+          <label for="area">State</label>
+          <input type="text" name="area" id="area" placeholder="State "/>
+          <label for="code">zip code</label>
+          <input type="text" name="code" id="code" />
+        </legend>
+      </fieldset>
+      <br />
+      <fieldset>
+        <legend>Other Information</legend>
+        <label for="cmt">Comment:</label>
+        <textarea name="cmt" id="cmt" cols="30" rows="10" placeholder="Enter your feedback"></textarea>
+        <label for="servi">I agree to the terms of service</label>
+        <input type="checkbox" name="servi" id="servi" />
+        <br />
+        <input type="submit" name="submit" id="submit" />
+      </fieldset>
+    </form>
+  </body>
+</html>
