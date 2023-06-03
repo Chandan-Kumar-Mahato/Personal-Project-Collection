@@ -1,0 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.top img{
+    height: auto;
+    width: 150px;
+}
+#side{
+    margin-left: 20px;
+}
