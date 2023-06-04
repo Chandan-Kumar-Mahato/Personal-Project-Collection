@@ -7,6 +7,17 @@
     height: auto;
     width: 150px;
 }
+li{
+    list-style-type: none;
+}
 #side{
     margin-left: 20px;
+}
+video{
+    height: 280px;
+}
+
+a{
+    color: #666666;
+    text-decoration: none;
 }
